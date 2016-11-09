@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		161AB4391DCB835100A1E512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161AB4381DCB835100A1E512 /* AppDelegate.swift */; };
+		161AB43E1DCB835100A1E512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161AB43C1DCB835100A1E512 /* Main.storyboard */; };
+		161AB4401DCB835100A1E512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161AB43F1DCB835100A1E512 /* Assets.xcassets */; };
+		161AB4431DCB835100A1E512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161AB4411DCB835100A1E512 /* LaunchScreen.storyboard */; };
+		161AB44B1DCB83D600A1E512 /* SnapListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161AB44A1DCB83D600A1E512 /* SnapListTableViewController.swift */; };
+		161AB44E1DCB868700A1E512 /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161AB44D1DCB868700A1E512 /* Snap.swift */; };
+		161AB4531DCB887B00A1E512 /* SnapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161AB4511DCB887B00A1E512 /* SnapTableViewCell.swift */; };
+		161AB4541DCB887B00A1E512 /* SnapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161AB4521DCB887B00A1E512 /* SnapTableViewCell.xib */; };
+		161AB4571DCB8C7A00A1E512 /* UIColor+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161AB4561DCB8C7A00A1E512 /* UIColor+Helpers.swift */; };
+		161AB4591DCB919800A1E512 /* SnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161AB4581DCB919800A1E512 /* SnapViewController.swift */; };
+		1665FB2F1DD38B6F00D402DA /* dan.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1665FB2E1DD38B6F00D402DA /* dan.mov */; };
+		1665FB321DD38B8400D402DA /* liza.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1665FB311DD38B8400D402DA /* liza.mov */; };
+		16AEF7B01DCFDC8F008513E5 /* conte.mov in Resources */ = {isa = PBXBuildFile; fileRef = 16AEF7AF1DCFDC8F008513E5 /* conte.mov */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		161AB4351DCB835100A1E512 /* SnapReaction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapReaction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		161AB4381DCB835100A1E512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		161AB43D1DCB835100A1E512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		161AB43F1DCB835100A1E512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		161AB4421DCB835100A1E512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		161AB4441DCB835100A1E512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		161AB44A1DCB83D600A1E512 /* SnapListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapListTableViewController.swift; sourceTree = "<group>"; };
+		161AB44D1DCB868700A1E512 /* Snap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
+		161AB4511DCB887B00A1E512 /* SnapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapTableViewCell.swift; sourceTree = "<group>"; };
+		161AB4521DCB887B00A1E512 /* SnapTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapTableViewCell.xib; sourceTree = "<group>"; };
+		161AB4561DCB8C7A00A1E512 /* UIColor+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Helpers.swift"; sourceTree = "<group>"; };
+		161AB4581DCB919800A1E512 /* SnapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapViewController.swift; sourceTree = "<group>"; };
+		1665FB2E1DD38B6F00D402DA /* dan.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = dan.mov; sourceTree = "<group>"; };
+		1665FB301DD38B7600D402DA /* luna.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = luna.mp4; sourceTree = "<group>"; };
+		1665FB311DD38B8400D402DA /* liza.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = liza.mov; sourceTree = "<group>"; };
+		16AEF7AF1DCFDC8F008513E5 /* conte.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = conte.mov; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		161AB4321DCB835100A1E512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		161AB42C1DCB835100A1E512 = {
+			isa = PBXGroup;
+			children = (
+				161AB4371DCB835100A1E512 /* SnapReaction */,
+				161AB4361DCB835100A1E512 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		161AB4361DCB835100A1E512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				161AB4351DCB835100A1E512 /* SnapReaction.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		161AB4371DCB835100A1E512 /* SnapReaction */ = {
+			isa = PBXGroup;
+			children = (
+				161AB4551DCB8C6A00A1E512 /* Helpers */,
+				161AB44C1DCB867A00A1E512 /* Models */,
+				161AB4501DCB886800A1E512 /* Views */,
+				161AB44F1DCB879A00A1E512 /* View Controllers */,
+				16AEF7AE1DCFDC69008513E5 /* Videos */,
+				161AB4381DCB835100A1E512 /* AppDelegate.swift */,
+				161AB43C1DCB835100A1E512 /* Main.storyboard */,
+				161AB43F1DCB835100A1E512 /* Assets.xcassets */,
+				161AB4411DCB835100A1E512 /* LaunchScreen.storyboard */,
+				161AB4441DCB835100A1E512 /* Info.plist */,
+			);
+			path = SnapReaction;
+			sourceTree = "<group>";
+		};
+		161AB44C1DCB867A00A1E512 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				161AB44D1DCB868700A1E512 /* Snap.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		161AB44F1DCB879A00A1E512 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				161AB44A1DCB83D600A1E512 /* SnapListTableViewController.swift */,
+				161AB4581DCB919800A1E512 /* SnapViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		161AB4501DCB886800A1E512 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				161AB4511DCB887B00A1E512 /* SnapTableViewCell.swift */,
+				161AB4521DCB887B00A1E512 /* SnapTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		161AB4551DCB8C6A00A1E512 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				161AB4561DCB8C7A00A1E512 /* UIColor+Helpers.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		16AEF7AE1DCFDC69008513E5 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				1665FB311DD38B8400D402DA /* liza.mov */,
+				1665FB301DD38B7600D402DA /* luna.mp4 */,
+				1665FB2E1DD38B6F00D402DA /* dan.mov */,
+				16AEF7AF1DCFDC8F008513E5 /* conte.mov */,
+			);
+			name = Videos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		161AB4341DCB835100A1E512 /* SnapReaction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 161AB4471DCB835100A1E512 /* Build configuration list for PBXNativeTarget "SnapReaction" */;
+			buildPhases = (
+				161AB4311DCB835100A1E512 /* Sources */,
+				161AB4321DCB835100A1E512 /* Frameworks */,
+				161AB4331DCB835100A1E512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapReaction;
+			productName = SnapReaction;
+			productReference = 161AB4351DCB835100A1E512 /* SnapReaction.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		161AB42D1DCB835100A1E512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Dan Kindler";
+				TargetAttributes = {
+					161AB4341DCB835100A1E512 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = QJZELDAJAM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 161AB4301DCB835100A1E512 /* Build configuration list for PBXProject "SnapReaction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 161AB42C1DCB835100A1E512;
+			productRefGroup = 161AB4361DCB835100A1E512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				161AB4341DCB835100A1E512 /* SnapReaction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		161AB4331DCB835100A1E512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1665FB321DD38B8400D402DA /* liza.mov in Resources */,
+				1665FB2F1DD38B6F00D402DA /* dan.mov in Resources */,
+				161AB4431DCB835100A1E512 /* LaunchScreen.storyboard in Resources */,
+				16AEF7B01DCFDC8F008513E5 /* conte.mov in Resources */,
+				161AB4401DCB835100A1E512 /* Assets.xcassets in Resources */,
+				161AB43E1DCB835100A1E512 /* Main.storyboard in Resources */,
+				161AB4541DCB887B00A1E512 /* SnapTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		161AB4311DCB835100A1E512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161AB4591DCB919800A1E512 /* SnapViewController.swift in Sources */,
+				161AB4391DCB835100A1E512 /* AppDelegate.swift in Sources */,
+				161AB4571DCB8C7A00A1E512 /* UIColor+Helpers.swift in Sources */,
+				161AB44B1DCB83D600A1E512 /* SnapListTableViewController.swift in Sources */,
+				161AB44E1DCB868700A1E512 /* Snap.swift in Sources */,
+				161AB4531DCB887B00A1E512 /* SnapTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		161AB43C1DCB835100A1E512 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				161AB43D1DCB835100A1E512 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		161AB4411DCB835100A1E512 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				161AB4421DCB835100A1E512 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		161AB4451DCB835100A1E512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		161AB4461DCB835100A1E512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		161AB4481DCB835100A1E512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QJZELDAJAM;
+				INFOPLIST_FILE = SnapReaction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Kindler.SnapReaction";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		161AB4491DCB835100A1E512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QJZELDAJAM;
+				INFOPLIST_FILE = SnapReaction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Kindler.SnapReaction";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		161AB4301DCB835100A1E512 /* Build configuration list for PBXProject "SnapReaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				161AB4451DCB835100A1E512 /* Debug */,
+				161AB4461DCB835100A1E512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		161AB4471DCB835100A1E512 /* Build configuration list for PBXNativeTarget "SnapReaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				161AB4481DCB835100A1E512 /* Debug */,
+				161AB4491DCB835100A1E512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 161AB42D1DCB835100A1E512 /* Project object */;
+}
