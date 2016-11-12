@@ -1,8 +1,6 @@
 # Snap React
 
-Proposal                   |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![](assets/proposal.gif)   |  ![](assets/luna.png)
+![](assets/proposal.gif) ![](assets/luna.png)
 
 The following is a feature concept I have created for my job application to Snap Inc.
 This demonstration app is less a guide on how the proposed feature should be implemented, and more a prototype to display the fun and excitement that reactions could bring to Snapchat.
