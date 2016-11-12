@@ -1,6 +1,6 @@
 # Snap React
 
-[proposal]: assets/proposal.gif "proposal" width="375px" height="667px"
+![Proposal](assets/proposal.gif | width=375)
 
 
 The following is a feature concept I have created for my job application to Snap Inc.
