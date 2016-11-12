@@ -1,6 +1,6 @@
 # Snap React
 
-<img src="https://github.com/dkindler/SnapReact/blob/dev/assets/proposal.gif" width="188"/><img src="https://github.com/dkindler/SnapReact/blob/dev/assets/luna.png" width="188" />
+<img src="https://github.com/dkindler/SnapReact/blob/dev/assets/proposal.gif" width="250"/><img src="https://github.com/dkindler/SnapReact/blob/dev/assets/luna.png" width="250" />
 
 The following is a feature concept I have created for my job application to Snap Inc.
 This demonstration app is less a guide on how the proposed feature should be implemented, and more a prototype to display the fun and excitement that reactions could bring to Snapchat.
