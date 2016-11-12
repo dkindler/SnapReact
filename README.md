@@ -1,10 +1,11 @@
 # Snap React
-The following is a feature concept I have created for my job application to Snap Inc.
-This demonstration app is less a guide on how the proposed feature should be implemented, and more a prototype to display the fun and excitement that reactions could bring to Snapchat.
 
 <p align="center">
 <img src="https://github.com/dkindler/SnapReact/blob/dev/assets/proposal.gif" width="250"/>&nbsp;&nbsp;<img src="https://github.com/dkindler/SnapReact/blob/dev/assets/luna.png" width="250" />
 </p>
+
+The following is a feature concept I have created for my job application to Snap Inc.
+This demonstration app is less a guide on how the proposed feature should be implemented, and more a prototype to display the fun and excitement that reactions could bring to Snapchat.
 
 ### Concept
 Snap React is a proposed feature that would allow the sender of a snap to see their recipients raw emotion and reaction as they open up their snap. I considered many ways in which to go about prototyping Snap React, and came up with the following implementation. The feature works as follows:
