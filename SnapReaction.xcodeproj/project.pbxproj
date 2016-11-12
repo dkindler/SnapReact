@@ -20,6 +20,7 @@
 		1665FB2F1DD38B6F00D402DA /* dan.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1665FB2E1DD38B6F00D402DA /* dan.mov */; };
 		1665FB321DD38B8400D402DA /* liza.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1665FB311DD38B8400D402DA /* liza.mov */; };
 		16AEF7B01DCFDC8F008513E5 /* conte.mov in Resources */ = {isa = PBXBuildFile; fileRef = 16AEF7AF1DCFDC8F008513E5 /* conte.mov */; };
+		16F1EDD31DD6BAAD0025272C /* luna.mov in Resources */ = {isa = PBXBuildFile; fileRef = 16F1EDD21DD6BAAD0025272C /* luna.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,9 +37,9 @@
 		161AB4561DCB8C7A00A1E512 /* UIColor+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Helpers.swift"; sourceTree = "<group>"; };
 		161AB4581DCB919800A1E512 /* SnapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapViewController.swift; sourceTree = "<group>"; };
 		1665FB2E1DD38B6F00D402DA /* dan.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = dan.mov; sourceTree = "<group>"; };
-		1665FB301DD38B7600D402DA /* luna.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = luna.mp4; sourceTree = "<group>"; };
 		1665FB311DD38B8400D402DA /* liza.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = liza.mov; sourceTree = "<group>"; };
 		16AEF7AF1DCFDC8F008513E5 /* conte.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = conte.mov; sourceTree = "<group>"; };
+		16F1EDD21DD6BAAD0025272C /* luna.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = luna.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +123,8 @@
 		16AEF7AE1DCFDC69008513E5 /* Videos */ = {
 			isa = PBXGroup;
 			children = (
+				16F1EDD21DD6BAAD0025272C /* luna.mov */,
 				1665FB311DD38B8400D402DA /* liza.mov */,
-				1665FB301DD38B7600D402DA /* luna.mp4 */,
 				1665FB2E1DD38B6F00D402DA /* dan.mov */,
 				16AEF7AF1DCFDC8F008513E5 /* conte.mov */,
 			);
@@ -190,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F1EDD31DD6BAAD0025272C /* luna.mov in Resources */,
 				1665FB321DD38B8400D402DA /* liza.mov in Resources */,
 				1665FB2F1DD38B6F00D402DA /* dan.mov in Resources */,
 				161AB4431DCB835100A1E512 /* LaunchScreen.storyboard in Resources */,
