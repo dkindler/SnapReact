@@ -1,7 +1,7 @@
 # Snap React
 
 <p align="center">
-<img src="https://github.com/dkindler/SnapReact/blob/dev/assets/proposal.gif" width="250"/>&nbsp;&nbsp;<img src="https://github.com/dkindler/SnapReact/blob/dev/assets/luna.png" width="250" />
+<img src="https://github.com/dkindler/SnapReact/blob/dev/assets/lanzone.png" width="250"/>&nbsp;&nbsp;<img src="https://github.com/dkindler/SnapReact/blob/dev/assets/proposal.gif" width="250"/>&nbsp;&nbsp;<img src="https://github.com/dkindler/SnapReact/blob/dev/assets/luna.png" width="250" />
 </p>
 
 The following is a feature concept I have created for my job application to Snap Inc.
