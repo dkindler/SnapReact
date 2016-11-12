@@ -1,5 +1,6 @@
 # Snap React
 
+:-------------------------:|:-------------------------:
 ![](assets/proposal.gif) ![](assets/luna.png)
 
 The following is a feature concept I have created for my job application to Snap Inc.
