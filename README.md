@@ -1,7 +1,7 @@
 # Snap React
-                           |
-:-------------------------:|:-------------------------:
-![](assets/proposal.gif)   | ![](assets/luna.png)
+
+[proposal]: assets/proposal.gif "proposal" width="375px" height="667px"
+
 
 The following is a feature concept I have created for my job application to Snap Inc.
 This demonstration app is less a guide on how the proposed feature should be implemented, and more a prototype to display the fun and excitement that reactions could bring to Snapchat.
